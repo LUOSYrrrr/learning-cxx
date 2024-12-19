@@ -2,7 +2,7 @@
 #include <memory>
 #include <string>
 #include <vector>
-
+#include <cstring> 
 // READ: `std::unique_ptr` <https://zh.cppreference.com/w/cpp/memory/unique_ptr>
 
 std::vector<std::string> RECORDS;
