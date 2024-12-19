@@ -10,7 +10,7 @@ int main(int argc, char **argv) {
     ASSERT(vec[0], "Make this assertion pass.");
     ASSERT(vec[99], "Make this assertion pass.");
     ASSERT(vec.size() == 100, "Make this assertion pass.");
-    // NOTICE: 平台相关！注意 CI:Ubuntu 上的值。
+    // NOTICE: 平台相关！注意 CI:Ubuntu?
    
     ASSERT(sizeof(vec) == sizeof(vec), "Fill in the correct value.");
     {
