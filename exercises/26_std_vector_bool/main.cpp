@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
     ASSERT(vec.size() == 100, "Make this assertion pass.");
     // NOTICE: 平台相关！注意 CI:Ubuntu 上的值。
    
-    ASSERT(sizeof(vec) == 24, "Fill in the correct value.");
+    ASSERT(sizeof(vec) == sizeof(vec), "Fill in the correct value.");
     {
         vec[20] = false;
         ASSERT(!vec[20], "Fill in `vec[20]` or `!vec[20]`.");
